@@ -6,7 +6,6 @@
 // @author       Shaya Cohen
 // @include      https://www4.pointclickcare.com/clinical/mds3/section.xhtml?*&sectioncode=P
 // @grant        none
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js
 // ==/UserScript==
 
 (function() {

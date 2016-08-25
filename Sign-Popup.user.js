@@ -7,7 +7,6 @@
 // @include      https://www4.pointclickcare.com/clinical/mds3_popup*
 // @include      https://www4.pointclickcare.com/care/chart/mds/mdsrapssign.jsp*
 // @grant        none
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js
 // ==/UserScript==
 
 
