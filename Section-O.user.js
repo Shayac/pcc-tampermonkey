@@ -11,7 +11,11 @@
 (function() {
     'use strict';
     $(function(){
-        $('[id$="2_wrapper"]').find('a[data-value="0"]').click();
+        $('body').click(function(e){
+            if(e.shiftKey) {
+                $('[id$="2_wrapper"]').find('a[data-value="0"]').click();
+            }
+        });
     });
 })();
 
