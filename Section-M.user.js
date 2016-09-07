@@ -11,8 +11,13 @@
 (function() {
     'use strict';
     $(function(){
-        $('#M1200Z_noneoftheabove').click();
-        $('#M1200A_wrapper').find('a[data-value="1"]').click();
-        $('#M1200B_wrapper').find('a[data-value="1"]').click();
+        $('body').click(function(e){
+            if(e.shiftKey) {
+                $('#M1200Z_noneoftheabove').click();
+                $('#M1200A_wrapper').find('a[data-value="1"]').click();
+                $('#M1200B_wrapper').find('a[data-value="1"]').click();
+            }
+        });
+        
     });
 })();
